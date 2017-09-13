@@ -1,0 +1,247 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+
+#title {
+  border: 2px dotted goldenrod;
+  color: darksalmon;
+  text-align: left;
+  display: flex;
+  position: relative;
+  padding-left: 180px;
+  margin-top: 60px;
+}
+
+#outer_layer {
+  border: 1px dotted red;
+  padding: 10px;
+  margin: 60px 180px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 1050px;
+  max-width: 1400px;
+  flex-basis: 1400px;
+}
+
+#wrapper1, #wrapper2, #wrapper3 {
+  justify-content: flex-start;
+  display: inline-flex;
+  max-width: 1400px;
+  background-color: white;
+}
+
+.box {
+  height: 350px;
+  overflow: hidden;
+}
+
+#head {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: cornsilk;
+}
+
+#navigation {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+#illustration {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+}
+
+#animation {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-image: url("/resources/pattern1.png");
+}
+
+#webdesign {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: darksalmon;
+}
+
+#about {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: darkcyan;
+}
+
+#contact {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: darkkhaki;
+}
+
+#box8 {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: darksalmon;
+}
+
+#box9 {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: darkkhaki;
+}
+
+#box10 {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: palevioletred;
+}
+
+#box11 {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: lightseagreen;
+}
+
+#box12 {
+  flex-basis: 350px;
+  min-width: 50px;
+  overflow: hidden;
+  background-color: indianred;
+}
+
+.content {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+
+ul {
+  padding: 0px;
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 71px;
+  margin: 130px auto;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+.textontop {
+  overflow: hidden;
+  padding: 30px;
+  z-index: 2;
+  position: absolute;
+  max-width: 350px;
+  height: 200px;
+}
+
+#illustration:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+
+#animation:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+
+#illustration img {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 0;
+  min-width: 50px;
+  max-height: 350px;
+}
+
+#animation img {
+  z-index: 1;
+  overflow: hidden;
+  padding: 0;
+  min-width: 50px;
+  max-height: 350px;
+}
+
+/*---------Content pages-----------*/
+
+#showcase_wrapper {
+  border: 1px dotted red;
+  padding: 10px;
+  margin-left: 180px;
+  margin-top: 60px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  max-height: 1050px;
+  max-width: 1400px;
+  min-width: 0;
+  min-height: 350px;
+  flex-basis: 1400px;
+}
+#leftbox {
+  justify-content: center;
+  color: white;
+  display: flex;
+  flex-basis: 350px;
+  max-width: 350px;
+  max-height: 1050px;
+  min-width: 0;
+  background-color: gray;
+}
+
+#showcase {
+  display: flex;
+  flex-basis: 1050px;
+  max-width: 1050px;
+  max-height: 1050px;
+  min-width: 0;
+  background-color: darksalmon;
+}
+
+#showcase img {
+  min-height: 0;
+  min-width: 0;
+}
+
+
+.switch_image {
+  text-align: center;
+  padding: 0px;
+  height: 60px;
+  width: 1050px;
+  flex-basis: 1050px;
+  opacity: 0.7;
+  position: absolute;
+  background-color: white;
+}
+
+.switch_image a {
+  color: indianred;
+}
